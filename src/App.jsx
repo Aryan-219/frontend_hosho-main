@@ -5,7 +5,7 @@ import FileInput from "./components/FileInput";
 function App() {
 	const [generate, setGenerate] = useState(false);
 	const handleButtonClick = () => {
-		fetch("https://backend-hosho-digital-main.onrender.com", {
+		fetch("https://backend-hosho-digital-main.onrender.com/api/v1/generate-team", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/pdf",
