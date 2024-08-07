@@ -29,7 +29,7 @@ const FileInput = ({ setGenerate }) => {
 		formData.append("file", file);
 
 		// Example of handling the file upload
-		fetch("https://backend-hosho-digital.onrender.com/api/v1/upload", {
+		fetch("https://backend-hosho-digital-main.onrender.com", {
 			// Adjust URL as needed
 			method: "POST",
 			body: formData,
